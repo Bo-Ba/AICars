@@ -219,7 +219,6 @@ def runGame(carsNum, neuronsNum):
                 return
 
         window.fill((0, 0, 0))
-        keysPressed = pygame.key.get_pressed()
         static_sprites.draw(window)
 
         for car in moving_objects_copy:
